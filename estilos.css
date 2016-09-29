@@ -9,9 +9,9 @@ h2, .fixclear {
 }
 
 .principal-site {
-	float: left;	
 	width: 80%;
 	box-sizing: border-box;
+	padding-bottom: 80px;
 }
 
 .principal-site .titulo-pagina {
@@ -57,18 +57,22 @@ h2, .fixclear {
 }
 
 .joao-silva {
-	width: 20%;
-	float: right;
-	border: 5px solid #000;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 300px;
+	border: 10px solid #000;
 	box-sizing: border-box;
 }
 
 .navegacao-site {
+	position: absolute;
+	right: 0px;
+	top: 300px;
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	padding: 20px;
 	text-align: center;
-	float: right;
 	width: 20%;
 	box-sizing: border-box;
 }
@@ -128,6 +132,11 @@ h2, .fixclear {
 	background-color: #000;
 	color: #F2FFFC;	
 	padding: 20px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	box-sizing: border-box;
+	width: 100%;
 }
 
 h1 {
