@@ -1,0 +1,14 @@
+.posts {
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 30px;
+	margin-top : 20px;
+}
+
+.posts .leia-mais {
+	display: block;
+	text-align: center;
+	color: #C3C3C3;
+	padding: 8px;
+	margin: 16px;
+	font-size: 20px;
+}
